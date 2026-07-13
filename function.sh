@@ -16,7 +16,7 @@ fi
 
 }
 
-dnf install nginx -y
+dnf install ngisdfnx -y
 VALIDATE $? "Installing nginx"
 
 dnf install mysql8.4-server -y
