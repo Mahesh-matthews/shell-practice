@@ -1,8 +1,9 @@
 #!/bin/bash
 
-AGE=20
+echo "Enter your age:"
+read AGE
 
-if [ $AGE -gt 18 ]; then
+if [ $AGE -ge 18 ]; then
     echo "Eligible for vote"
 else
     echo "Not Eligible for vote"
