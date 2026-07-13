@@ -15,9 +15,9 @@ else
     echo "Installing nginx.... Success"
 fi
 
-dnf install mysql -y
+dnf install mysql8.4-server -y
 
-if [ $? -ne 0]; then
+if [ $? -ne 0 ]; then
     echo "Installing mySQL... failure"
     exit 1
 else 
