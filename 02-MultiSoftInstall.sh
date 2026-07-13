@@ -22,5 +22,13 @@ if [ $? -ne 0 ]; then
     exit 1
 else 
     echo "Installing mySQL... Success"
+fi
+
+dnf install nodejs24 -y
+
+if [ $? -ne 0 ]; then
+    echo "Installing nodejs24... failure"
     exit 1
+else 
+    echo "Installing mynodejs24SQL... Success"
 fi
