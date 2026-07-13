@@ -2,7 +2,7 @@
 
 
 
-echo "$person1:: Hello $person2, how are you?"
-echo "$person2:: Hello $person1, iam Fine, how are you?"
-echo "$person1:: Hello $person2, I am fine too?"
-echo "$persosn2:: Hello $person1, Glad to know that?"
+echo "Rajesh:: Hello satish:, how are you?"
+echo "satish:: Hello rajesh, iam Fine, how are you?"
+echo "rajesh:: Hello satish:, I am fine too?"
+echo "satish:: Hello rajesh, Glad to know that?"
